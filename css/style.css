@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -12,10 +12,13 @@
   background-color: black;
   display:flex;
   align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .image {
   width: 184px;
+  
 }
 
 .menu {
@@ -33,4 +36,11 @@
   text-transform: capitalize;
   color: #fff;
   padding: 0 15px;
+  font-family: inherit;
+  font-weight:100;
+}
+
+.header ul a :hover {
+  border-bottom: 2px solid rgb(242, 238, 238); 
+  color: #d79953;
 }
