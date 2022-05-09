@@ -7,6 +7,10 @@
 
 */
 
+.container {
+  background-image: url("/img/background-image.jpeg")
+}
+
 .header {
   width:  100%;
   height: 100px;
@@ -44,4 +48,42 @@
 .header ul a :hover {
   border-bottom: 2px solid rgb(242, 238, 238); 
   color: #d79953;
+}
+
+/*
+//////////OPENNING ACCOUNT AREA///////////
+
+*/
+
+.openinAccount {
+  align-items: center;
+  justify-content: center;
+}
+.openinAccount h1 h2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  right: 50px;
+}
+
+.buttons  {
+  display: flex;
+  color: #fff;
+  border-color: #d79953;
+  background-color: #d79953;
+  border-width: 0;
+  padding: 15px 27px 13px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  padding: 25px;
+
+}
+.buttons a {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+
 }
