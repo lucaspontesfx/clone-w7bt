@@ -1,2 +1,3 @@
-# clone-w7bt
-Este repositório tem um projeto onde clono o site da corretora w7bt.com
+# Clone da página inicial da corretora W&
+Estou clonando a página inicial da corretora W7 
+para práticar minhas habilidades em HTML e CSS.
