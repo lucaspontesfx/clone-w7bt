@@ -16,6 +16,8 @@ body {
     
   width: 1170px;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
   
 
 }
@@ -25,7 +27,6 @@ body {
     background-color: black ;
     /* background-image: url(../img/backgroung-w7-clone.jpg); */
     height: 100vh;
-    
     background-attachment: fixed;
 }
 
@@ -61,8 +62,8 @@ body {
 }
 
 .home .header .nav ul li a:hover {
-  border-bottom: 1px solid var(--primary-color);
-    color:white;
+  border-bottom: 1px solid #d79953;
+  color: #d79953;
 }
 
 /*Preciso acabar o menu e depois prosseguir*/
@@ -71,18 +72,27 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 130px;
 }
 
 .openAcc h1 {
-  margin: 15px 0 15px 0; 
-  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 23px;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
 
 }
 
 .openAcc h3 {
-  font-size: 25px;
-  margin-bottom: 15px;
+  margin:0 0 23px;
+  padding: 17px 0 0;
+  font-size: 26px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
 }
 .open-wrapper {
   display: flex;
@@ -94,15 +104,26 @@ body {
 }
 
 .buttons {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
   width: 25px;
   margin-top: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ 
 }
 
 .button {
+  display: flex;
+  justify-content: space-between;
   color: white;
   background-color: #d79953;
   cursor: pointer;
+  margin: 10px;
+  padding: 15px 27px 13px;
+  font-size: 16px;
+}
+
+.button a {
+  display:inline
 }
